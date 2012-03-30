@@ -1,0 +1,25 @@
+{
+
+"name": "Copy tUrl",
+"version": "1.0",
+"description": "Copies the current page's title and url as a link to the clipboard",
+"manifest_version": 2,
+
+"browser_action": {
+  "default_icon": "link.png"
+},
+
+"background": {
+	"page": "background.html"
+},
+
+"icons": {
+  "16": "link.png"
+},
+
+"permissions": [
+    "http://*/*",
+    "clipboardWrite",
+    "clipboardRead"
+  ]
+}
